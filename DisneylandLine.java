@@ -3,6 +3,8 @@ import java.util.LinkedList;
 import java.util.List;
 import path.to.exceptions.InvalidPositionException;
 
+//Put all classes in 1 file so its easier to read
+
 /*
  * DisneylandLine
  *
