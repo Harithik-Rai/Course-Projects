@@ -1,33 +1,4 @@
-# Additional Test Cases for A2
-
-It is recommended that you use the small test case found in the
-assignment specification until success. The test cases provided 
-here may run significantly longer than desired -- or even than your
-code will be tested on.
-
-Nevertheless, here are is a summary of input-output combinations to
-support development.
-
-## Table of Content:
-
-- [Small Test Case](#Small-Test)
-    - [Small Input](#inputtxt)
-    - [Small Output](#outputtxt) 
-
-- [Medium Test Case](#Medium-Test)
-    - [Medium Input](#inputtxt-1) 
-    - [Medium Output](#outputtxt-1)
-
-- [Starvation Test Case](#Starvation-Test)
-    - [Starvation Input](#inputtxt-2) 
-    - [Starvation Output](#outputtxt-2) 
-
-## Small-Test
-
-- [Small Input](#inputtxt)
-- [Small Output](#outputtxt) 
-
-### input.txt:
+### input:
 
 ```
 e 10 6
@@ -49,10 +20,6 @@ E 3 10
 00:00:02.6 Train  0 is OFF the main track after going East
 ```
 
-## Medium-Test
-
-- [Medium Input](#inputtxt-1) 
-- [Medium Output](#outputtxt-1)
 
 ### input.txt:
 
@@ -103,11 +70,6 @@ W 98 23
 00:00:26.5 Train  5 is ON the main track going East
 00:00:32.2 Train  5 is OFF the main track after going East
 ```
-
-## Starvation-Test 
-
-- [Starvation Input](#inputtxt-2) 
-- [Starvation Output](#outputtxt-2) 
 
 ### input.txt:
 
