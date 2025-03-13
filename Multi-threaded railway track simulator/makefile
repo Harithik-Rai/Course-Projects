@@ -1,5 +1,5 @@
-mts: mts.c
-	gcc mts.c -pthread -o mts
+simulation: simulation.c
+	gcc simulation.c -pthread -o simulation
 
 clean:
-	rm -f mts
+	rm -f simulation
