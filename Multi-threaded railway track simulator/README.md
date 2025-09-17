@@ -11,11 +11,11 @@ The simulator enforces **fair scheduling rules**:
 This project highlights concepts in **concurrency, synchronization, condition variables, and scheduling algorithms**.
 
 ## Features
-- 🚆 **Concurrent Train Threads** – Each train loads, queues, and crosses independently.  
-- 🔄 **Priority Scheduling** – High-priority trains are always favored.  
-- ↔️ **Fair Direction Rules** – After two consecutive trains in one direction, the track switches.  
-- ⏱️ **Accurate Timing** – Simulated loading/crossing times with `usleep()` and real-time logging.  
-- 📜 **Event Logging** – Simulation logs when trains are ready, on track, and off track.  
+- **Concurrent Train Threads** – Each train loads, queues, and crosses independently.  
+- **Priority Scheduling** – High-priority trains are always favored.  
+- **Fair Direction Rules** – After two consecutive trains in one direction, the track switches.  
+- **Accurate Timing** – Simulated loading/crossing times with `usleep()` and real-time logging.  
+- **Event Logging** – Simulation logs when trains are ready, on track, and off track.  
 
 ## Tech Stack
 - **C** (POSIX threads)  
