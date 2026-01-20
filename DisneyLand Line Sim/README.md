@@ -2,7 +2,7 @@
 
 ## Overview
 This project simulates a **lineup of people waiting to enter Disneyland**.  
-It models common line behaviors:
+It models the most common line behaviors:
 - People entering the line normally.  
 - People leaving the line one-by-one or in groups when they buy tickets.  
 - People “bribing” their way into a premium position in the line.  
